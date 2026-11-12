@@ -16,7 +16,7 @@
 	path = common-modules/trusty
 	url = ../common-modules/trusty
 [submodule "kernel/common-modules/virtual-device"]
-	branch = android-mainline
+	branch = android18-7.3
 	path = common-modules/virtual-device
 	url = ../common-modules/virtual-device
 [submodule "kernel/devices/google/raviole"]
