@@ -3,7 +3,7 @@
 	path = build/kernel
 	url = ../build
 [submodule "kernel/common"]
-	branch = android16-6.12
+	branch = android16-6.12-2026-12
 	path = common
 	url = ../common
 [submodule "kernel/common-modules/trusty"]
@@ -11,11 +11,11 @@
 	path = common-modules/trusty
 	url = ../common-modules/trusty
 [submodule "kernel/common-modules/virtual-device"]
-	branch = android16-6.12
+	ref = android16-6.12
 	path = common-modules/virtual-device
 	url = ../common-modules/virtual-device
 [submodule "kernel/common-modules/wonder"]
-	branch = android16-6.12
+	ref = android16-6.12
 	path = common-modules/wonder
 	url = ../common-modules/wonder
 [submodule "kernel/prebuilts/build-tools"]
@@ -24,11 +24,11 @@
 	path = prebuilts/kernel-build-tools
 	url = ../prebuilts/build-tools
 [submodule "platform/bootable/libbootloader"]
-	branch = gbl-android16
+	ref = gbl-android16
 	path = bootable/libbootloader
 	url = ../../platform/bootable/libbootloader
 [submodule "platform/bootable/recovery"]
-	branch = gbl-android16
+	ref = gbl-android16
 	path = bootable/recovery
 	url = ../../platform/bootable/recovery
 [submodule "platform/external/arm-trusted-firmware"]
@@ -171,8 +171,7 @@
 	path = prebuilts/clang/host/linux-x86
 	url = ../../platform/prebuilts/clang/host/linux-x86
 [submodule "platform/prebuilts/fuchsia_sdk"]
-	branch = gbl-android16
-	shallow = true
+	ref = gbl-android16
 	path = prebuilts/fuchsia_sdk
 	url = ../../platform/prebuilts/fuchsia_sdk
 [submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"]
