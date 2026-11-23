@@ -8,7 +8,7 @@
 	path = build/kernel
 	url = ../build
 [submodule "kernel/common"]
-	branch = android17-6.18
+	branch = android17-6.18-2026-12
 	path = common
 	url = ../common
 [submodule "kernel/common-modules/trusty"]
@@ -16,15 +16,15 @@
 	path = common-modules/trusty
 	url = ../common-modules/trusty
 [submodule "kernel/common-modules/virtual-device"]
-	branch = android17-6.18
+	ref = android17-6.18
 	path = common-modules/virtual-device
 	url = ../common-modules/virtual-device
 [submodule "kernel/common-modules/wonder"]
-	branch = android17-6.18
+	ref = android17-6.18
 	path = common-modules/wonder
 	url = ../common-modules/wonder
 [submodule "kernel/devices/google/raviole"]
-	branch = android17-6.18-gs101
+	ref = android17-6.18-gs101
 	path = devices/google/raviole
 	url = ../devices/google/raviole
 [submodule "kernel/prebuilts/build-tools"]
@@ -33,7 +33,7 @@
 	path = prebuilts/kernel-build-tools
 	url = ../prebuilts/build-tools
 [submodule "platform/bootable/libbootloader"]
-	branch = gbl-android17
+	ref = gbl-android17
 	path = bootable/libbootloader
 	url = ../../platform/bootable/libbootloader
 [submodule "platform/external/argp-standalone"]
@@ -169,7 +169,7 @@
 	path = external/toybox
 	url = ../../platform/external/toybox
 [submodule "platform/external/u-boot"]
-	branch = u-boot-android17
+	ref = u-boot-android17
 	path = u-boot
 	url = ../../platform/external/u-boot
 [submodule "platform/external/virtio-media"]
@@ -204,8 +204,7 @@
 	path = prebuilts/clang/host/linux-x86
 	url = ../../platform/prebuilts/clang/host/linux-x86
 [submodule "platform/prebuilts/fuchsia_sdk"]
-	branch = gbl-android17
-	shallow = true
+	ref = gbl-android17
 	path = prebuilts/fuchsia_sdk
 	url = ../../platform/prebuilts/fuchsia_sdk
 [submodule "platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"]
