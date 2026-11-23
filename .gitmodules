@@ -1,0 +1,209 @@
+[submodule "kernel/build"]
+	branch = main-kernel-2025
+	path = build/kernel
+	url = ../build
+[submodule "kernel/common"]
+	branch = android16-6.12
+	path = common
+	url = ../common
+[submodule "kernel/common-modules/trusty"]
+	branch = main-kernel-2025
+	path = common-modules/trusty
+	url = ../common-modules/trusty
+[submodule "kernel/common-modules/virtual-device"]
+	branch = android16-6.12
+	path = common-modules/virtual-device
+	url = ../common-modules/virtual-device
+[submodule "kernel/common-modules/wonder"]
+	branch = android16-6.12
+	path = common-modules/wonder
+	url = ../common-modules/wonder
+[submodule "kernel/prebuilts/build-tools"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/kernel-build-tools
+	url = ../prebuilts/build-tools
+[submodule "platform/bootable/libbootloader"]
+	branch = gbl-android16
+	path = bootable/libbootloader
+	url = ../../platform/bootable/libbootloader
+[submodule "platform/bootable/recovery"]
+	branch = gbl-android16
+	path = bootable/recovery
+	url = ../../platform/bootable/recovery
+[submodule "platform/external/arm-trusted-firmware"]
+	branch = main-kernel-2025
+	path = external/arm-trusted-firmware
+	url = ../../platform/external/arm-trusted-firmware
+[submodule "platform/external/avb"]
+	branch = main-kernel-2025
+	path = external/avb
+	url = ../../platform/external/avb
+[submodule "platform/external/bazel-contrib-bazel_features"]
+	branch = main-kernel-2025
+	path = external/bazel-contrib-bazel_features
+	url = ../../platform/external/bazel-contrib-bazel_features
+[submodule "platform/external/bazel-skylib"]
+	branch = main-kernel-2025
+	path = external/bazel-skylib
+	url = ../../platform/external/bazel-skylib
+[submodule "platform/external/bazelbuild-bazel-central-registry"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-bazel-central-registry
+	url = ../../platform/external/bazelbuild-bazel-central-registry
+[submodule "platform/external/bazelbuild-platforms"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-platforms
+	url = ../../platform/external/bazelbuild-platforms
+[submodule "platform/external/bazelbuild-rules_cc"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_cc
+	url = ../../platform/external/bazelbuild-rules_cc
+[submodule "platform/external/bazelbuild-rules_license"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_license
+	url = ../../platform/external/bazelbuild-rules_license
+[submodule "platform/external/bazelbuild-rules_pkg"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_pkg
+	url = ../../platform/external/bazelbuild-rules_pkg
+[submodule "platform/external/bazelbuild-rules_python"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_python
+	url = ../../platform/external/bazelbuild-rules_python
+[submodule "platform/external/bazelbuild-rules_rust"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_rust
+	url = ../../platform/external/bazelbuild-rules_rust
+[submodule "platform/external/bazelbuild-rules_shell"]
+	branch = main-kernel-2025
+	path = external/bazelbuild-rules_shell
+	url = ../../platform/external/bazelbuild-rules_shell
+[submodule "platform/external/boringssl"]
+	branch = main-kernel-2025
+	path = external/boringssl
+	url = ../../platform/external/boringssl
+[submodule "platform/external/compiler-rt"]
+	branch = main-kernel-2025
+	path = external/compiler-rt
+	url = ../../platform/external/compiler-rt
+[submodule "platform/external/dtc"]
+	branch = main-kernel-2025
+	path = external/dtc
+	url = ../../platform/external/dtc
+[submodule "platform/external/elfutils"]
+	branch = main-kernel-2025
+	path = external/elfutils
+	url = ../../platform/external/elfutils
+[submodule "platform/external/googletest"]
+	branch = main-kernel-2025
+	path = external/googletest
+	url = ../../platform/external/googletest
+[submodule "platform/external/libcap"]
+	branch = main-kernel-2025
+	path = external/libcap
+	url = ../../platform/external/libcap
+[submodule "platform/external/libcap-ng"]
+	branch = main-kernel-2025
+	path = external/libcap-ng
+	url = ../../platform/external/libcap-ng
+[submodule "platform/external/ltp"]
+	branch = main-kernel-2025
+	path = test/ltp
+	url = ../../platform/external/ltp
+[submodule "platform/external/lz4"]
+	branch = main-kernel-2025
+	path = external/lz4
+	url = ../../platform/external/lz4
+[submodule "platform/external/open-dice"]
+	branch = main-kernel-2025
+	path = external/open-dice
+	url = ../../platform/external/open-dice
+[submodule "platform/external/pigz"]
+	branch = main-kernel-2025
+	path = external/pigz
+	url = ../../platform/external/pigz
+[submodule "platform/external/python/absl-py"]
+	branch = main-kernel-2025
+	path = external/python/absl-py
+	url = ../../platform/external/python/absl-py
+[submodule "platform/external/rust/android-crates-io"]
+	branch = main-kernel-2025
+	path = external/rust/android-crates-io
+	url = ../../platform/external/rust/android-crates-io
+[submodule "platform/external/rust/crates/smoltcp"]
+	branch = main-kernel-2025
+	path = external/rust/crates/smoltcp
+	url = ../../platform/external/rust/crates/smoltcp
+[submodule "platform/external/rust/crates/zune-inflate"]
+	branch = main-kernel-2025
+	path = external/rust/crates/zune-inflate
+	url = ../../platform/external/rust/crates/zune-inflate
+[submodule "platform/external/toybox"]
+	branch = main-kernel-2025
+	path = external/toybox
+	url = ../../platform/external/toybox
+[submodule "platform/external/virtio-media"]
+	branch = main-kernel-2025
+	path = common-modules/virtio-media
+	url = ../../platform/external/virtio-media
+[submodule "platform/external/zlib"]
+	branch = main-kernel-2025
+	path = external/zlib
+	url = ../../platform/external/zlib
+[submodule "platform/external/zopfli"]
+	branch = main-kernel-2025
+	path = external/zopfli
+	url = ../../platform/external/zopfli
+[submodule "platform/prebuilts/build-tools"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/build-tools
+	url = ../../platform/prebuilts/build-tools
+[submodule "platform/prebuilts/clang-tools"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/clang-tools
+	url = ../../platform/prebuilts/clang-tools
+[submodule "platform/prebuilts/clang/host/linux-x86"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/clang/host/linux-x86
+	url = ../../platform/prebuilts/clang/host/linux-x86
+[submodule "platform/prebuilts/fuchsia_sdk"]
+	branch = gbl-android16
+	shallow = true
+	path = prebuilts/fuchsia_sdk
+	url = ../../platform/prebuilts/fuchsia_sdk
+[submodule "platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8
+	url = ../../platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8
+[submodule "platform/prebuilts/jdk/jdk11"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/jdk/jdk11
+	url = ../../platform/prebuilts/jdk/jdk11
+[submodule "platform/prebuilts/rust"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/rust
+	url = ../../platform/prebuilts/rust
+[submodule "platform/system/core"]
+	branch = main-kernel-2025
+	path = system/core
+	url = ../../platform/system/core
+[submodule "platform/system/libufdt"]
+	branch = main-kernel-2025
+	path = external/libufdt
+	url = ../../platform/system/libufdt
+[submodule "platform/system/tools/mkbootimg"]
+	branch = main-kernel-2025
+	path = tools/mkbootimg
+	url = ../../platform/system/tools/mkbootimg
+[submodule "toolchain/prebuilts/ndk/r26"]
+	branch = main-kernel-2025
+	shallow = true
+	path = prebuilts/ndk-r26
+	url = ../../toolchain/prebuilts/ndk/r26
